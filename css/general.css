@@ -7,3 +7,76 @@ body {
     font-family: 'Jua';
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#logo {
+    font-size: 20px;
+    color: #FFF2E2;
+    text-align: left;
+    margin: 0px;
+    background-color: #ed7230;
+    padding-left: 20px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #ed7230;
+    height: 100px;
+    display: flex;
+
+        }
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #FFF2E2;
+    text-align: center;
+    padding: 28px 20px;
+    text-decoration: none;
+    margin-right: 1230px;
+    font-size: 40px; }
+
+.topnav .search_container {
+        float: right;
+    }
+
+.topnav input[type=text] {
+    padding: 10px;
+    padding-right: 70px;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+
+.topnav .search_container button {
+    float: right;
+    padding: 11px;
+    margin-left: 0;
+    margin-right: 20px;
+    margin-top: 30px;
+    background: #9F5818;
+    color: #FFF2E2;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+.topnav .profile_pic {
+    flex: 0 1 auto;
+    display: grid;
+    place-items: center;
+    
+}
+.topnav .profile_pic img {
+    width: 65px;
+    background-color: #FFF2E2;
+    border-radius: 50%;
+}
