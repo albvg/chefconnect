@@ -2,8 +2,10 @@
     display: flex;
 }
 
+
     .ProfileBack { 
-        height: 900px;
+        position:fixed;
+        height: 840px;
         width: 30%;
         background-color: #ecac31;
         display: flex;
@@ -33,12 +35,13 @@
             position: absolute;
             top: 38%;}
         
-     #Profilemenu {background-color: #e5ba85;
+     #Profilemenu {z-index: 1;
+        background-color: #e5ba85;
             width: 63%;
             min-height: 100%;
             position: absolute;
             left: 33%;
-            top: 10%;
+            top: 9%;
             justify-content: center;
             margin-top: 2%;
             margin-left: 2%;
