@@ -9,7 +9,7 @@ h3 {font-size: 18px;
 color: antiquewhite;
 font-weight: normal;}
 
-form {
+#recipe_form {
     margin: 0 auto;
     width: 700px;
     padding: 1em;
@@ -19,23 +19,23 @@ form {
     margin-top: 40px;
   }
   
-  ul {
+  #recipe_form ul {
     list-style: none;
     padding: 0;
     margin: 0;
   }
   
-  form li + li {
+  #recipe_form form li + li {
     margin-top: 1em;
   }
   
-  label {
+  #recipe_form label {
     display: inline-block;
     width: 200px;
     text-align: left;
   }
   
-  input,
+  #recipe_form input,
   textarea {
 
     font: 1em sans-serif;
@@ -44,21 +44,21 @@ form {
     border: 1px solid #999;
   }
   
-  input:focus,
+  #recipe_form input:focus,
   textarea:focus {
     border-color: aqua;
   }
   
-  textarea {
+  #recipe_form textarea {
     vertical-align: top;
     height: 80px;
   }
   
-  .button {
+  #recipe_form .button {
     padding: 50px;  
   }
   
-  button {
+  #recipe_form button {
     margin-left: 0.5em;
     border: none;
     height: 40px;

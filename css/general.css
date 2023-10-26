@@ -46,7 +46,7 @@ a {
         float: right;
     }
 
-.topnav input[type=text] {
+.topnav #search_form input[type=text] {
     padding: 10px;
     padding-right: 70px;
     border: none;
@@ -57,7 +57,7 @@ a {
 
 }
 
-.topnav .search_container button {
+.topnav .search_container #search_form button {
     float: right;
     padding: 11px;
     margin-left: 0;

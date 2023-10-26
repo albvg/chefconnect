@@ -4,10 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Publicar Receta</title>
-    <link rel="stylesheet" href="css/generalP.css">
-    <link rel="stylesheet" href="css/PublicarReceta.css">
-    <link rel="stylesheet" href="css/general.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+ <!-- LINKS -->
+    
+ <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jua">
+ <link rel="stylesheet" href="css/general.css">
+ <link rel="stylesheet" href="css/generalP.css">
+ <link rel="stylesheet" href="css/PublicarReceta.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+<!-- ------ -->
 </head>
 <body>
     <div class="topnav">
@@ -15,7 +21,7 @@
             <a href="landingpage.html">ChefConnect</a>
         </div>
         <div class="search_container">
-            <form action="landingpage.html">
+            <form id="search_form" action="landingpage.html">
                 <input type="text" placeholder="Buscar">
                 <button type="submit"><i class="fa fa-search"></i></button>
             </form>
@@ -27,9 +33,19 @@
 
 </div>
    <!--Perfil Usuario-->
-   <div class="ProfileBack"><div><img class="ProfilePic" src="img/tartazanahoria.jpg" alt="tartazanahoria"></div><p>
-    <div class="User"><h2> Nombre Usuario</h2></div></p>
-    <div class="PersonalInfo"> <h3>blablalbalaba</h3></div>
+
+   <div class="fullscreen">
+    <div class="ProfileBack">
+       <div>
+           <img class="ProfilePic" src="img/tartazanahoria.jpg" alt="tartazanahoria">
+       </div>
+       <div class="User">
+           <h2> Nombre Usuario</h2>
+       </div>
+       <div class="PersonalInfo">
+           <h3>hola</h3>
+       </div>
+   </div>
 </div>
 
 <!--Menu Perfil-->
@@ -38,7 +54,8 @@
         <div class="button"> <a class="button2" href="Desafios_culinarios.html">Desafíos Culinarios</a></div>
         <div class="button"> <a class="button2" href="Publicar.html">Publicar Receta</a></div>
     </div>
-       <div><form action="Publicar.html" method="get"> <legend class="FormTitle">Nueva Receta</legend>
+       <div>
+        <form id="recipe_form" action="Publicar.html" method="get"> <legend class="FormTitle">Nueva Receta</legend>
         <ul>
           <li>
             <label for="name"><h3> <table>Título:</table></h3></label>
