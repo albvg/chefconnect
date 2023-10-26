@@ -4,7 +4,6 @@
 
 .container_principal {
     width: 1300px;
-    backgroundd-color: aqua;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
