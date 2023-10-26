@@ -1,14 +1,18 @@
+.fullscreen {
+    display: flex;
+}
 
-
-    .ProfileBack { height: 900px;
-            max-width: 30%;
-            background-color: #ecac31;
-            display: flex;
-            justify-content: center;
-            margin-top: 2%;
-            margin-left: 2%;
-            border-radius: 10px;
-        }
+    .ProfileBack { 
+        height: 900px;
+        width: 30%;
+        background-color: #ecac31;
+        display: flex;
+        justify-content: center;
+        margin-left: 2%;
+        border-radius: 10px;
+        margin-top: 130px; }
+        
+        
         
     .ProfilePic {max-height: 200px;
             max-width: 200px;
