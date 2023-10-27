@@ -5,20 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Publicar Receta</title>
 
-<!-- LINKS -->
+ <!-- LINKS -->
     
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jua">
-<link rel="stylesheet" href="../css/general_frontal/general.css">
-<link rel="stylesheet" href="../css/perfil/generalP.css">
-<link rel="stylesheet" href="../css/perfil/PublicarReceta.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+ <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jua">
+ <link rel="stylesheet" href="css/general.css">
+ <link rel="stylesheet" href="css/generalP.css">
+ <link rel="stylesheet" href="css/PublicarReceta.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
 <!-- ------ -->
 </head>
 <body>
     <div class="topnav">
         <div>
-            <a href="../lp/landingpage.html">ChefConnect</a>
+            <a href="landingpage.html">ChefConnect</a>
         </div>
         <div class="search_container">
             <form id="search_form" action="landingpage.html">
@@ -26,7 +26,7 @@
                 <button type="submit"><i class="fa fa-search"></i></button>
             </form>
         </div>
-        <div class="profile_pic"><img src="../img/profile_pic1.png"></div>
+        <div class="profile_pic"><img src="img/profile_pic1.png"></div>
     
     </div>
 
@@ -49,40 +49,41 @@
 </div>
 
 <!--Menu Perfil-->
+
 <div id="Profilemenu"><div class="container">
         <div class="button"><a class="button2" href="perfilChef.html">Mis Recetas</a></div>
         <div class="button"> <a class="button2" href="Desafios_culinarios.html">Desafíos Culinarios</a></div>
         <div class="button"> <a class="button2" href="Publicar.html">Publicar Receta</a></div>
     </div>
-       <div>
-        <form id="recipe_form" action="Publicar.html" method="get"> <legend class="FormTitle">Nueva Receta</legend>
-        <ul>
-          <li>
-            <label for="name"><h3> <table>Título:</table></h3></label>
-            <input type="text" id="name" name="user_name" />
-          </li>
-          <li>
-            <label for="image"><h3>>Imagen</h3/label>
-            <input type="image" id="imagen" name="Imagen" />
-          </li>
-          <li>
-            <label for="text"><h3>Ingredientes:</h3></label>
-            <textarea id="ingredients" name="ingredients"></textarea>
-          </li>
-          <li><label for="text"><h3>Proceso:</h3></label><textarea>
-            </textarea></li>
-            <li>
-            <input type="checkbox" id="meat" name="meat" value="Carne">
-            <label for="meat"> Carne</label><br>
-            <input type="checkbox" id="fish" name="fish" value="Pescado">
-            <label for="fish"> Pescado</label><br>
-            <input type="checkbox" id="dessert" name="dessert" value="Postre">
-            <label for="dessert">Postre</label><br></li>
-            <li class="button">
-                <button type="submit">Publicar</button>
-              </li>
-        </ul>
-      </form></div>
+
+<!--Publicar receta-->
+<div class="form_container">
+    <div id="recipe_form">
+      <form>
+        <legend>Nueva Receta</legend>
+          <label for="recipe_name">Título:</label>
+          <input type="text" id="recipe_name"><br>
+
+          <label for="image">Imagen</label>
+          <input type="image" id="recipe_image"><br>
+
+          <label for="recipe_ing">Ingredientes:</label>
+          <textarea name="Recipe" id="recipe_ing" cols="53" rows="5"></textarea><br><br>
+
+          <label for="recipe_proccess">Proceso:</label>
+          <textarea name="Recipe" id="recipe_process" cols="53" rows="10"></textarea><br>
+
+          <label for="Cathegory">Categoría:</label><br>
+            <input type="checkbox" id="categoria" name="Carne" value="Carne"> Carne
+            <input type="checkbox" id="categoria" name="Pescado" value="Pescado">Pescado
+            <input type="checkbox" id="categoria" name="Verduras" value="Verduras">Verduras <br>
+            <input type="checkbox" id="categoria" name="Postre" value="Postre">Postre
+            <input type="checkbox" id="categoria" name="Fruta" value="Fruta">Fruta
+            <input type="checkbox" id="categoria" name="Bebidas" value="Bebidas">Bebidas
+      </form> <br>
+      <a id="Publish_button" href="perfilChef.html" class="button">Publicar</a> 
+    </div>
+  </div>
 </div>
 </body>
 </html>

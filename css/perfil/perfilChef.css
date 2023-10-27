@@ -1,27 +1,9 @@
-<<<<<<<<< Temporary merge branch 1:css/perfilChef.css
-
-
-    .gallery { display: flex;
-        margin: 0 auto;
-    text-align: center;}
-
-    .galleryimg {display: inline-block;}
-    
-    .galleryimg img{
-        width: 450px; 
-        height: 350px;
-        margin: 15px;
-         border-radius: 20px; }
-
-
-
-    h3 {margin: 0 auto;
-=========
 
 
     .gallery { position: relative;
         margin: 0 auto;
-    text-align: center;}
+    text-align: center;
+flex-wrap: wrap;}
 
     .galleryimg {display: inline-block;}
     
@@ -40,5 +22,5 @@
     border-bottom-right-radius: 20px;}
 
     h3 {margin: 0 auto;
->>>>>>>>> Temporary merge branch 2:css/perfil/perfilChef.css
-    padding-top: 10px;}
+        padding: 20px;}
+h4 {padding: 20px;}
