@@ -1,0 +1,81 @@
+.fullscreen {
+    display: flex;
+}
+
+.container1 {
+    width: calc(100% - 1300px);
+    top: 100px;
+    right: 0;
+    height: auto;
+}
+
+.container2{
+    width: 1300px;
+    height: 100%;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.profile {
+    background-color: #ecac31;
+    width: 450px;
+    height: 785px;
+    position: fixed;
+    bottom: 30px;
+    left: 95px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.user_pic {
+    max-height: 200px;
+    max-width: 200px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+.user_name {
+    font-size: 20px;
+    ;
+}
+
+.user_info {background-color:antiquewhite;
+    min-height: 410px;
+    max-height: 410px;
+    width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.profile_menu {
+    background-color: #e5ba85;
+    width: 1150px;
+    min-height: 100vh;
+    height: 100%;
+    border-radius: 4%;
+    margin-top: 112px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: fit-content;
+    height: fit-content;
+}
+
+.sectionbutton {
+    padding: 60px 10px}
+    
+.buttonlink {   
+    text-decoration: none;
+    background-color: #ed7230;
+    color: antiquewhite;
+    padding: 20px 80px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Jua';}
