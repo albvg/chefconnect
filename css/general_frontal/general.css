@@ -22,6 +22,7 @@ a {
 }
 
 .topnav {
+    z-index: 2;
     overflow: hidden;
     background-color: #ed7230;
     height: 100px;
