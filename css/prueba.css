@@ -19,7 +19,7 @@
 .profile {
     background-color: #ecac31;
     width: 450px;
-    height: 800px;
+    height: 785px;
     position: fixed;
     bottom: 30px;
     left: 95px;
@@ -54,7 +54,7 @@
     min-height: 100vh;
     height: 100%;
     border-radius: 4%;
-    margin-top: 108px;
+    margin-top: 112px;
     display: flex;
     justify-content: center;
     flex-direction: row;
