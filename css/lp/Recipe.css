@@ -2,39 +2,66 @@
     display: flex;
 }
 
-.container_receta {
+.container_receta { display: flex;
+    margin: auto;
+    flex-direction: column;
     width: 70%;
-    text-align: center;
+    text-align: left;
     height: 100%;
     min-height: 100vh;
-    margin-left: 15%;
     margin-top: 150px;
-    background-color: #ECAC31;
+    background-color: #e5ba85;
     border-radius: 10px;  
     overflow: hidden; 
+    display: inline-block;
+  
+}
+.flex {display: flex;
+flex: row;}
+
+h1 {padding-left: 25px; padding-top: 20px;
+     text-align: left; margin-bottom: 0; font-size: 32px; color: #26221F;}
+
+h2 {text-align: left; color: rgba(61, 54, 54, 0.781);
+    padding-left: 25px;
+    margin-top: 0%;}
+
+h3 {font-size: 20px; text-align: left;
+padding: 10px; color:  #ed7230;}
+
+.list_ingredients {
 }
 
-h1 {padding: 20px;}
+li {list-style: none; color: #26221F;;}
+
+
+ol {padding: 0%;}
 
 .ingredientes { text-align: left;
     background-color: antiquewhite;
-height: 400px;
-width: 400px;
-border-radius: 10px;
-padding: 30px;
-display: inline-block;
+    height: 400px;
+    width: 700px;
+    border-radius: 10px;
+    margin-left: 30px;
+
+   
+
 }
 
-.Imagen_receta {float: right; display: inline-block; margin: 5px;}
+
 
 .Proceso { background-color:antiquewhite;
-padding: 20px;
-height: 500px;
-width: 400 px;
-margin-top: 50px;}
+    padding: 20px;
+    height: 500px;
+    width: 1233px;
+    margin: 30px;
+    border-radius: 10px;
+color: #26221F;
+text-align: left;}
 
 .Tarta {height: 400px;
-width: 450px;
-border-radius: 10px;
-margin-right: 50px;
+    width: 500px;
+    border-radius: 10px;
+    object-fit: cover;
+  float: right;
 }
