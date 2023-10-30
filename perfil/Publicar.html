@@ -7,8 +7,6 @@
 
  <!-- LINKS -->
     
- <!-- LINKS -->
-    
  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jua">
  <link rel="stylesheet" href="../css/general_frontal/general.css">
  <link rel="stylesheet" href="../css/perfil/generalP.css">
@@ -31,22 +29,24 @@
         <div class="profile_pic"><img src="../img/profile_pic1.png"></div>
     
     </div>
-  <!--Perfil Usuario-->
 
-  <div class="fullscreen">
+   <!--Perfil Usuario-->
+
+   <div class="fullscreen">
     <div class="ProfileBack">
        <div>
            <img class="ProfilePic" src="/img/tartazanahoria.jpg" alt="tartazanahoria">
        </div>
        <div class="User">
-           <h2> Gaia_bn</h2>
+           <h2 class="h2perfil"> Gaia_bn</h2> <h3 class="h3perfil">Segudores: 189</h3>
        </div>
        <div class="PersonalInfo">
-        <h4>Duis congue nulla ut bibendum ultricies. Curabitur tincidunt massa justo, a pretium ante porttitor ac. In tortor ipsum, 
-            luctus quis elit non, tempor gravida nisl. Interdum et malesuada fames ac ante ipsum primis in faucibus. 
-            Praesent et sagittis tortor. Proin pellentesque vehicula tellus, ut molestie urna dictum at.
-             Morbi bibendum malesuada erat sit amet vehicula. Sed mollis sollicitudin dolor ac vulputate. Praesent libero turpis, varius a urna a, 
-             gravida lobortis arcu. Suspendisse hendrerit maximus dui, eu luctus tortor aliquet nec.</h4>
+        
+           <h4 class="h4perfil">Duis congue nulla ut bibendum ultricies. Curabitur tincidunt massa justo, a pretium ante porttitor ac. In tortor ipsum, 
+               luctus quis elit non, tempor gravida nisl. Interdum et malesuada fames ac ante ipsum primis in faucibus. 
+               Praesent et sagittis tortor. Proin pellentesque vehicula tellus, ut molestie urna dictum at.
+                Morbi bibendum malesuada erat sit amet vehicula. Sed mollis sollicitudin dolor ac vulputate. Praesent libero turpis, varius a urna a, 
+                gravida lobortis arcu. Suspendisse hendrerit maximus dui, eu luctus tortor aliquet nec.</h4>
        </div>
    </div>
 </div>
@@ -68,7 +68,7 @@
           <input type="text" id="recipe_name"><br>
 
           <label for="image">Imagen</label>
-          <input type="image" id="recipe_image"><br>
+          <input type="file" id="recipe_image"><br>
 
           <label for="recipe_ing">Ingredientes:</label>
           <textarea name="Recipe" id="recipe_ing" cols="53" rows="5"></textarea><br><br>
@@ -76,17 +76,33 @@
           <label for="recipe_proccess">Proceso:</label>
           <textarea name="Recipe" id="recipe_process" cols="53" rows="10"></textarea><br>
 
-          <label for="Cathegory">Categoría:</label><br>
+          <label for="comensales">Comensales:</label>
+          <input type="number" id="quantity" name="quantity" min="1" max="20"><br><br>
+
+          <label for="dificultad">Dificultad:</label>
+         <input type="radio" name="dificultad" value="Baja"> Baja<br>
+         <input type="radio" name="dificultad" value="Media"> Media<br>
+         <input type="radio" name="dificultad" value="Alta"> Alta<br><br>
+
+         <label for="time">Tiempo de preparación:</label>
+         <input type="time" id="time"><br><br>
+
+          <label for="Cathegory" style="margin: 10px;">Categoría:</label>
             <input type="checkbox" id="categoria" name="Carne" value="Carne"> Carne
             <input type="checkbox" id="categoria" name="Pescado" value="Pescado">Pescado
             <input type="checkbox" id="categoria" name="Verduras" value="Verduras">Verduras <br>
             <input type="checkbox" id="categoria" name="Postre" value="Postre">Postre
             <input type="checkbox" id="categoria" name="Fruta" value="Fruta">Fruta
-            <input type="checkbox" id="categoria" name="Bebidas" value="Bebidas">Bebidas
-      </form> 
+            <input type="checkbox" id="categoria" name="Bebidas" value="Bebidas">Bebidas <br>
+            <input type="checkbox" id="categoria" name="Vegano" value="Vegano">Vegano
+            <input type="checkbox" id="categoria" name="Singluten" value="Singluten">Sin Gluten
+            <input type="checkbox" id="categoria" name="Vegetariano" value="Vegetariano">Vegetariano
+      </form> <br>
       <a id="Publish_button" href="perfilChef.html" class="button">Publicar</a> 
     </div>
   </div>
+</div>
+
 </div>
 </body>
 </html>

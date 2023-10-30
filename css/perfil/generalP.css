@@ -5,10 +5,14 @@ body {
     background-color: antiquewhite;
     margin: 0 auto;
 }
-h4 {font-size: 16px;
-color: #26221F;}
-h2 {color:#26221F;}
-h3 {color:#26221F;}
+.h4perfil {font-size: 16px;
+    color: #26221F;padding: 20px;
+    margin: 10px; text-align: center;}
+
+.h2perfil {color:#26221F; margin-bottom: 0px;text-align: center;}
+
+.h3perfil {color:#26221F;font-size: 12px; text-align: center;
+    margin-top: 2px;}
 
     .ProfileBack { position: fixed;
         height: 900px;
@@ -43,7 +47,7 @@ h3 {color:#26221F;}
         
      #Profilemenu {background-color: #e5ba85;
             width: 63%;
-            min-height: 1200px;
+            min-height: 1500px;
             position: absolute;
             left: 33%;
             top: 9%;

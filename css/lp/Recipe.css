@@ -1,5 +1,7 @@
 .fullscreen {
     display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
 }
 
 .container_receta { display: flex;
@@ -13,9 +15,7 @@
     border-radius: 10px;  
     overflow: hidden; 
     display: inline-block;
-  
 }
-
 
 .flex {display: flex;
     flex: row;}
@@ -84,14 +84,42 @@ td {
 border-right: 2px  groove #ed7230}
 
 
-/*.container_comentarios { position: relative;
-    display: flex;
-    margin: 0 auto;
+.container_comentarios {
+    margin: auto;
     width: 70%;
     text-align: left;
     height: 100%;
+    margin-top: 50px;
     background-color: #e5ba85;
     border-radius: 10px;  
     overflow: hidden; }
 
-    .publicar_coment {}*/
+    .publicar_coment { background-color:antiquewhite;
+        padding-left: 40px;
+        padding-bottom: 20px;
+        padding-top: 10px;
+        padding-right: 30px;
+        height: 100%;
+        width: 90%;
+        margin: 30px;
+        border-radius: 10px;
+        color: #26221F;
+        text-align: left;}
+
+
+
+.Comentario1 {background-color:antiquewhite;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-right: 30px;
+    height: 100%;
+    width: 90%;
+    margin: 30px;
+    border-radius: 10px;
+    color: #26221F;
+    text-align: left;
+    
+    min-height: 200px;
+width: 900px;
+background-color: #a8bb61;}
