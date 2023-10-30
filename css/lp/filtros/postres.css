@@ -118,3 +118,12 @@
     right: 160px;
     bottom: 100px;
 }
+
+.selected_filter {
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: 2px solid #ed7230;
+    color: white;
+    background-color: #ed7230;
+}
