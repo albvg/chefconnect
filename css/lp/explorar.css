@@ -17,17 +17,20 @@
     .imagenes_receta { display: flex; 
         margin: 0 auto;
         align-items: center;
+        width: 80%;
       
 }
     
     .recipe {
         background-color: black;
-   
         width: 300px;
         height: 250px;
         border-radius: 5%;
-        margin: 10px;
-         display: inline-block;
+        margin: 20px;
+        margin-top: 40px;
+        display: inline-block;
+        
+   
     }
     
     
@@ -36,3 +39,25 @@
         height: 250px;
         object-fit: cover;
         border-radius: 4%;}
+
+        .ciudadimg {
+            filter: brightness(0.9);
+        }
+    
+        .recipe{
+            transform: scale(var(--escala, 1));
+            transition: transform 0.25s;
+          }
+          .recipe:hover{
+            --escala: 1.1;
+            cursor:pointer;}
+
+    h4{text-align: center;
+        padding: 5px;
+        color: #9F5818;
+        font-size: 24px;
+        margin-top: 0;
+        font-family: 'Jua';
+        border: 4px solid antiquewhite;
+        border-radius: 7px;
+        margin-top: 7px;}

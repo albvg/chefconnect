@@ -1,0 +1,43 @@
+.fullscreen {
+    display: flex;
+}
+
+.container1 {display: flex;
+    margin: 0 auto;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    margin-top: 150px;
+    background-color: #e5ba85;
+    border-radius: 10px;  
+    overflow: hidden; }   
+    
+h1 {color: #9F5818;}
+h4{ padding: 20px; line-height: 1.5em; margin-left: 20px;}
+
+
+
+    .Info {height: 100%;
+    background-color: antiquewhite;
+    color: #26221F;
+    border-radius: 10px;
+    width: 90%;
+    margin-bottom: 30px;
+}
+
+.Ubi{
+color: #26221F;
+height: 200px;
+width: 89%;
+margin: 40px;
+border-radius: 10px;
+border: 5px solid #9F5818;
+}
+
+
+.imglogo { height: 60px;
+width: 40px;
+align-items: center;
+margin-top: 20px;
+margin-left: 30px;}
