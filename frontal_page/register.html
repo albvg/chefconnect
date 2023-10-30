@@ -8,6 +8,7 @@
         <!-- LINKS -->
     
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jua">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
         <link rel="stylesheet" href="../css/general_frontal/frontal.css">
         <link rel="stylesheet" href="../css/general_frontal/register_page.css">
     
@@ -22,7 +23,7 @@
             <h2>Registrarte</h2>
         </div>
         <div id="register">
-            <form>
+            <form action="#popup1" method="get">
                 <label for="user_name">Nombre:</label>
                 <input type="text" id="user_name"><br>
 
@@ -36,11 +37,26 @@
                 <input type="email" id="user_email"><br>
 
                 <label for="user_password">Password:</label>
-                <input type="password" id="user_password"">
+                <input type="password" id="user_password">
+                <button id="register_button">Crear cuenta</button>
             </form>
-            <a id="register_button" href="../lp/landingpage.html" class="button">Crear cuenta nueva</a>  
         </div>
-    </div>
+        <div id="popup1" class="overlay">
+            <div class="popup">
+                <form id="popup_form" action="../lp/mainpage.html">
+                    <h2>Políticas de privacidad y uso</h2>
+                    <a class="close" href="#">&times;</a>
+                    <div class="content">
+                    Se han actualizado las políticas de privacidad de la entidad.
+                    Las actualizaciones clave incluyen la recopilación de la información de tu cuenta de ChefConnect para mejorar la experiencia con nuestro producto y servicio. Tus datos no serán compartidos con terceros u otros usuarios.<br><br>
+                    
+                    <input type="checkbox" id="check">
+                    Acepto los términos y condiciones de ChefConnect al crear mi cuenta.
+                    <button id="check_button">Crear cuenta</button>
+                </form>
+                </div>
+            </div>
+        </div>
     
 </body>
 </html>
