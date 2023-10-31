@@ -7,7 +7,8 @@ body {
 }
 .h4perfil {font-size: 16px;
     color: #26221F;padding: 20px;
-    margin: 10px; text-align: center;}
+    margin: 10px; text-align: center;
+margin-top: 0%; padding-top: 10px;}
 
 .h2perfil {color:#26221F; margin-bottom: 0px;text-align: center;}
 
@@ -35,7 +36,7 @@ body {
     .PersonalInfo {background-color:antiquewhite;
             position: absolute;
             top: 50%;
-            min-height: 200px;
+         height: 50px;
             max-height: 500px;
             width: 400px;
         border-radius: 10px;}
