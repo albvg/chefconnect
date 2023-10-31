@@ -1,7 +1,7 @@
 #containerPrincipal {
     text-align: center;
     min-width: 500px;
-    padding: 130px;
+    padding: 90px 130px;
 }
 
 #logo {
@@ -28,8 +28,22 @@ h2 {
 form {
     width: 400px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 40px 15px;
     margin-bottom: 20px;
+}
+
+.user_country {
+  border: none;
+    background-color: #FFF2E2;
+    height: auto;
+    margin: 0px;
+    outline: 0;
+    padding: 15px;
+    width: 410px;
+    color: black;
+    margin-bottom: 20px;
+    font-size: 18px;
+    border-radius: 5px;
 }
 
 form input[type="text"],
@@ -41,10 +55,10 @@ form input[type="date"] {
     height: auto;
     margin: 0px;
     outline: 0;
-    padding: 10px;
+    padding: 15px;
     width: 380px;
     color: black;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
     font-size: 18px;
     border-radius: 5px;
 
@@ -68,12 +82,12 @@ a {
     padding: 10px;
     background-color: #a8bb61;
     font-size: 20px;
-    padding: 15px 130px;
+    padding: 18px 138px;
     border: solid #a8bb61;
     border-radius: 10px;
     text-align: center;
     margin-bottom: 10px;
-    margin-top: 30px;
+    margin-top: 18px;
 }
 
 .overlay {
@@ -93,7 +107,7 @@ a {
   }
   
 .popup {
-    margin: 280px auto;
+    margin: 220px auto;
     padding: 70px 20px 40px 20px;
     background: #fff;
     border-radius: 5px;

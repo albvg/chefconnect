@@ -1,5 +1,6 @@
 #faqlogo {
     color: #ed7230;
+    font-family: 'Jua';
 }
 
 
@@ -19,6 +20,7 @@
 .title_container h3 {
     margin-bottom: 10px;
     margin-top: 0px;
+    font-family: 'Jua';
 }
 
 .button_container {
