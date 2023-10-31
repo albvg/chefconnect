@@ -1,0 +1,130 @@
+
+.fullscreen {
+    display: flex;
+    background-color: #1B77B3;
+}
+
+.main_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    height: 100%;
+    min-height: 100vh;
+    margin: 100px auto;
+}
+
+.banner {
+    background-image: url(https://images.alphacoders.com/112/1127813.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 0px 20px 70px 90px #1B77B3;
+    justify-content: center;
+    align-items: center;
+    width: 1903px;
+    height: 900px;
+}
+
+.desafios_title {
+    font-size: 100px;
+    text-align: center;
+    line-height: 90px;
+    color: white;
+    font-family: 'Jua';
+    margin-top: 120px;
+    text-shadow: 5px 6px #131B25;
+}
+
+
+
+.desafio_1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #131B25;
+    background-image: url(/css/bgimg/marisco.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 520px;
+    height: 780px;
+    border-radius: 15px;
+    text-align: center;
+    object-fit: cover;
+    border-radius: 5%;
+}
+
+.desafio_1 h1 {
+    font-size: 60px;
+    line-height: 50px;
+    color: white;
+    font-family: 'Jua';
+    margin-top: 200px;
+}
+
+.join {
+    flex: 0 30 0;
+    padding: 20px 150px;
+    font-size: 30px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: #32f732;
+}
+
+.info {
+    padding: 15px 100px;
+    font-size: 25px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: #ed7230;}
+
+.desafio_2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #131B25;
+    background-image: url(/css/bgimg/asia.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 520px;
+    height: 780px;
+    border-radius: 15px;
+    text-align: center;
+    object-fit: cover;
+    border-radius: 5%; }
+
+.desafio_2 h1 {
+    font-size: 60px;
+    line-height: 50px;
+    color: white;
+    font-family: 'Jua';
+    margin-top: 200px;
+}
+
+.desafio_3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #131B25;
+    background-image: url(/css/bgimg/postre2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 520px;
+    height: 780px;
+    border-radius: 15px;
+    text-align: center;
+    object-fit: cover;
+    border-radius: 5%;
+}
+
+.desafio_3 h1 {
+    font-size: 60px;
+    line-height: 50px;
+    color: white;
+    font-family: 'Jua';
+    margin-top: 200px;
+}
