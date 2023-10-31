@@ -13,8 +13,8 @@
     border-radius: 10px;  
     overflow: hidden; }   
     
-h1 {color: #9F5818;}
-h4{ padding: 20px; line-height: 1.5em; margin-left: 20px;}
+h1 {color: #9F5818; font-size: 36px; font-family: 'Jua';}
+h4{ padding: 20px; line-height: 1.5em; margin-left: 20px; font-weight: normal;}
 
 
 
@@ -28,16 +28,25 @@ h4{ padding: 20px; line-height: 1.5em; margin-left: 20px;}
 
 .Ubi{
 color: #26221F;
-height: 200px;
-width: 89%;
-margin: 40px;
+height: 100px;
+width: 90%;
+margin: 20px;
+background-color: antiquewhite;
 border-radius: 10px;
-border: 5px solid #9F5818;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 
-.imglogo { height: 60px;
-width: 40px;
+.imglogo { height: 45px;
+width: 30px;
+margin-right: 20px;
 align-items: center;
-margin-top: 20px;
 margin-left: 30px;}
+
+.imgreloj {height: 35px;
+    width: 35px;
+    align-items: center;
+margin-right: 20px;
+    margin-left: 30px;}
