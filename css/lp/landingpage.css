@@ -116,44 +116,6 @@ h1{
     border-radius: 5%;
 }
 
-.recipe1 img {
-    width: 550px;
-    height: 450px;
-    object-fit: cover;
-    border-radius: 4%;;
-}
-
-.recipe2 img {
-    width: 550px;
-    height: 450px;
-    object-fit: cover;
-    border-radius: 4%;;
-}
-.recipe3 img {
-    width: 550px;
-    height: 450px;
-    object-fit: cover;
-    border-radius: 4%;;
-}
-.recipe4 img {
-    width: 550px;
-    height: 450px;
-    object-fit: cover;
-    border-radius: 4%;;
-}
-.recipe5 img {
-    width: 550px;
-    height: 450px;
-    object-fit: cover;
-    border-radius: 4%;;
-}
-.recipe6 img {
-    width: 550px;
-    height: 450px;
-    object-fit: cover;
-    border-radius: 4%;;
-}
-
 .desafios {
     background-color: #131B25;
     width: 400px;

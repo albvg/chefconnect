@@ -10,23 +10,91 @@
     justify-content: center;
     }
 
-.galleryimg {
+.galleryimg1 {
+    background-image: url(../../img/TartaZ.jpeg);
+    background-size: cover;
     display: flex;
     flex-wrap: wrap ;
     width: 370px;
-    height: 280px;}
-    
-.galleryimg img{
-        width: 370px; 
+    height: 280px;
+    border-radius: 20px;}
+
+.galleryimg2 {
+        background-image: url(../../img/recetas/poke.jpg);
+        background-size: cover;
+        display: flex;
+        flex-wrap: wrap ;
+        width: 370px;
         height: 280px;
         border-radius: 20px;}
 
+.galleryimg3 {
+    background-image: url(../../img/recetas/pizza.jpg);
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap ;
+    width: 370px;
+    height: 280px;
+    border-radius: 20px;}
+
+.galleryimg4 {
+    background-image: url(../../img/recetas/lentejas.jpg);
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap ;
+    width: 370px;
+    height: 280px;
+    border-radius: 20px;}
+
+.galleryimg5 {
+    background-image: url(../../img/recetas/lasaña.jpg);
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap ;
+    width: 370px;
+    height: 280px;
+    border-radius: 20px;}
+
+.galleryimg6 {
+    background-image: url(../../img/Ramen.jpeg);
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap ;
+    width: 370px;
+    height: 280px;
+    border-radius: 20px;}
+
+.gallery h1{
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+    width: 260px;
+    padding: 5px 20px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ed7230;
+    box-shadow: 5px 5px 4px #4e4b4973;
+    }
+
+.gallery a{
+    color: white;
+    text-align: center;
+    margin-top: 196px;
+    margin-bottom: 45px;
+    width: 260px;
+    padding: 9px 20px 13px 20px;
+    border-radius: 15px;
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ed7230;
+    box-shadow: 5px 5px 4px #4e4b4973;
+}
 
 h3 {font-size: 12px; text-align: center;
     margin-top: 2px;
-}
-
-h4 { 
 }
 
 h2{ margin-bottom: 0px;}
