@@ -7,34 +7,34 @@
     align-items: center;
     flex-direction: column;
     width: 80%;
-    height: 100%;
-    margin-top: 150px;
+    min-height: 800px;
+    margin-top: 130px;
     background-color: #e5ba85;
-    border-radius: 10px;  
+    border-radius: 10px; 
     overflow: hidden; }    
 
+    .container1 h1 {
+        margin-top: 45px;
+        margin-bottom: 0px;
+    }
 
-    .imagenes_receta { display: flex; 
-        margin: 0 auto;
-        justify-content: center;
-        width: 90%;
-        padding: 10px;
-      
+.ciudades {
+    text-align: center;
 }
     
-    .recipe {
+    .city {
         background-color: black;
         width: 300px;
         height: 250px;
         border-radius: 5%;
         margin: 20px;
-        margin-top: 40px;
+        margin-top: 30px;
         display: inline-block;
         
    
     }
     
-    .recipe img {
+    .city img {
         width: 300px;
         height: 250px;
         object-fit: cover;
@@ -44,15 +44,15 @@
             filter: brightness(0.9);
         }
     
-        .recipe{
+        .city {
             transform: scale(var(--escala, 1));
             transition: transform 0.25s;
           }
-          .recipe:hover{
+          .city:hover{
             --escala: 1.1;
             cursor:pointer;}
 
-    h4{text-align: center;
+    h4 {text-align: center;
         padding: 5px;
         color: #9F5818;
         font-size: 24px;
