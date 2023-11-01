@@ -16,8 +16,9 @@
 
     .imagenes_receta { display: flex; 
         margin: 0 auto;
-        align-items: center;
-        width: 80%;
+        justify-content: center;
+        width: 90%;
+        padding: 10px;
       
 }
     
@@ -32,7 +33,6 @@
         
    
     }
-    
     
     .recipe img {
         width: 300px;

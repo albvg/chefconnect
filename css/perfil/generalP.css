@@ -7,7 +7,8 @@ body {
 }
 .h4perfil {font-size: 16px;
     color: #26221F;padding: 20px;
-    margin: 10px; text-align: center;}
+    margin: 10px; text-align: center;
+margin-top: 0%; padding-top: 10px;}
 
 .h2perfil {color:#26221F; margin-bottom: 0px;text-align: center;}
 
@@ -32,10 +33,10 @@ body {
             margin-top: 30px;
         
         }
-    .PersonalInfo {background-color:antiquewhite;
+    .PersonalInfo {
             position: absolute;
             top: 50%;
-            min-height: 200px;
+         height: 50px;
             max-height: 500px;
             width: 400px;
         border-radius: 10px;}
@@ -63,7 +64,10 @@ body {
             
             }
      .button {
-        padding: 60px;}
+        padding: 60px; button{border: none;
+            background-color: antiquewhite;
+            font-size: 20px;
+            width: 200px;}}
         
      .button2 {   text-decoration: none;
             background-color: #ed7230;
@@ -80,3 +84,20 @@ body {
               .button:hover{
                 --escala: 1.1;
                 cursor:pointer;}
+
+
+    
+.boton_edit{border: none;
+    background-color: antiquewhite;
+    font-size: 14px;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+}
+    .boton_edit{
+        transform: scale(var(--escala, 1));
+        transition: transform 0.25s;
+      }
+      .boton_edit:hover{
+        --escala: 1.1;
+        cursor:pointer;}
