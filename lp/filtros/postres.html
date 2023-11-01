@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="../../css/general_frontal/general.css">
     <link rel="stylesheet" href="../../css/lp/filtros/postres.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+    rel="stylesheet"/>
 
     <!-- ------ -->
 
@@ -22,15 +24,45 @@
 
 <div class="topnav">
     <div>
-        <a href="../landingpage.html">ChefConnect</a>
+        <a id="chefconnect" href="../mainpage.html">ChefConnect</a>
     </div>
     <div class="search_container">
-        <form id="search_form" action="landingpage.html">
-            <input type="text" placeholder="Buscar">
+        <form id="search_form" action="filtros/postres.html">
+            <input type="text" placeholder="Buscar receta o cocinero">
             <button type="submit"><i class="fa fa-search"></i></button>
         </form>
     </div>
-    <div class="profile_pic"><img src="../../img/profile_pic1.png"></div>
+    <div class="profile_menu">
+    <ul>
+        <li class="profile_pic">
+          <img src="../../img/profile_pic1.png"/>
+          <ul>
+            <li class="sub-item">
+                <span class="material-icons-outlined"> person </span>
+              <a href="../perfil/perfilChef.html">Mi perfil</a>
+            </li>
+            <li class="sub-item">
+                <span class="material-icons-outlined"> favorite </span>
+                <a href="">Favoritos</a>
+              </li>
+            <li class="sub-item">
+              <span class="material-icons-outlined">
+                public
+              </span>
+              <a href="../lp/Eventos_ciudad.html">Eventos</a>
+            </li>
+            <li class="sub-item">
+              <span class="material-icons-outlined"> info </span>
+              <a href="../otras_paginas/faq.html">FAQ</a>
+            </li>
+            <li class="sub-item">
+                <span class="material-icons-outlined"> logout </span>
+                <a href="../frontal_page/index.html">Cerrar sesión</a>
+              </li>
+          </ul>
+        </li>
+      </ul>
+      </div>
 
 </div>
 
@@ -38,50 +70,26 @@
 
 <div class="fullscreen">
     <div class="container_principal">
-        <div class="filtros_container">
-            <button id="filtrar">Filtrar</button>
-            <button class="filtros">Sin gluten</button>
-            <button class="filtros">Vegano</button>
-            <a class="selected_filter" href="postres.html">Postres</a>
-            <button class="filtros">Pescado</button>
-            <button class="filtros">Desayuno</button>
-            <button class="filtros">Saludable</button>
-
-
+        <div class="recipe1">
+            <h1>Pannacotta</h1>
         </div>
-        <div class="recipe">
-            <img src="../../lp/filtros/img/churros.jpg" alt="Tarta de manzana">
+        <div class="recipe2">
+            <h1>Flan</h1>
         </div>
-        <div class="recipe">
-            <img src="../../lp/filtros/img/panacotta.avif" alt="Paella">
+        <div class="recipe3">
+            <h1>Tarta de la abuela</h1>
         </div>
-        <div class="recipe">
-            <img src="../../lp/filtros/img/flan.jpg" alt="Albondigas en salsa">
+        <div class="recipe4">
+            <h1>Tarta de queso</h1>
         </div>
-        <div class="recipe">
-            <img src="../../lp/filtros/img/tartadelaabuela.jpg" alt="Tonkatsu">
+        <div class="recipe5">
+            <h1>Tarta de manzana</h1>
         </div>
-        <div class="recipe">
-            <img src="../../lp/filtros/img/tartadequeso.jpg" alt="Ramen">
-        </div>
-        <div class="recipe">
-            <img src="../../lp/filtros/img/tarta_manzana.jpg" alt="Poke">
+        <div class="recipe6">
+            <h1>Churros</h1>
         </div>
     </div>
 
-    <div class="container_banner">
-        <div class="desafios">
-            <div class="desafios_title">
-                <h3>Únete a nuestros</h3>
-                <h2>Desafíos<br>
-                culinarios</h2>
-            </div>
-            <div class="desafios_img"> 
-                <img src="../img/desafiosbanner.jpg">
-            </div>
-            <button>Unirse</button>
-        </div>
-    </div>
 </div>    
 
 </body>

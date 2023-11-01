@@ -49,15 +49,105 @@
     height: auto;
 }
 
-.recipe {
-    background-color: black;
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 330px;
+    width: 300px;
+    padding: 15px 50px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ed7230;
+    box-shadow: 5px 5px 4px #4e4b4973;
+}
+
+.recipe1 {
+    background-image: url(../../img/recetas/tarta_manzana.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 550px;
     height: 450px;
     border-radius: 5%;
 }
 
+.recipe2 {
+    background-image: url(../../img/recetas/paella.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 550px;
+    height: 450px;
+    border-radius: 5%;
+}
 
-.recipe img {
+.recipe3 {
+    background-image: url(../../img/recetas/albondigas_salsa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 550px;
+    height: 450px;
+    border-radius: 5%;
+}
+
+.recipe4 {
+    background-image: url(../../img/recetas/tonkatsu.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 550px;
+    height: 450px;
+    border-radius: 5%;
+}
+
+.recipe5 {
+    background-image: url(../../img/recetas/ramen.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 550px;
+    height: 450px;
+    border-radius: 5%;
+}
+
+.recipe6 {
+    background-image: url(../../img/recetas/poke.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 550px;
+    height: 450px;
+    border-radius: 5%;
+}
+
+.recipe1 img {
+    width: 550px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 4%;;
+}
+
+.recipe2 img {
+    width: 550px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 4%;;
+}
+.recipe3 img {
+    width: 550px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 4%;;
+}
+.recipe4 img {
+    width: 550px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 4%;;
+}
+.recipe5 img {
+    width: 550px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 4%;;
+}
+.recipe6 img {
     width: 550px;
     height: 450px;
     object-fit: cover;
@@ -119,5 +209,99 @@
     bottom: 100px;
 }
 
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: opacity 500ms;
+    visibility: hidden;
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+.popup {
+    margin: 130px auto;
+    padding: 40px 20px 20px 20px;
+    background: #FFF2E2;
+    border-radius: 10px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+  }
+  
+.popup h2 {
+    margin-top: 0;
+    color: #26221F;
+    font-family: 'Nunito';
+    text-align: left;
+  }
+
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  .popup .close:hover {
+    color: #06D85F;
+  }
+  .popup .content {
+    max-height: 50%;
+    overflow: auto;
+    font-size: 20px;
+    font-family: 'Nunito';
+    text-align: left;
+    padding: 0px 10px;
+    width: 500px;
+  }
+
+#popup_form {
+    margin: 0px 20px;
+    padding: 0;
+  }
+
+#check_button {
+    font-family: 'Nunito';
+    padding: 10px;
+    background-color: #ed7230;
+    font-size: 20px;
+    padding: 15px 135px;
+    border: solid #ed7230;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px 80px;
+  }
+
+fieldset {
+    border: 2px solid #ed7230;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+legend {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ed7230;
+}
+
+.special, .ingredients {
+    display: inline-block;
+}
+
+.ingredients {
+    vertical-align: top;
+    height: 222.99px;
+    width: 225px;
+}
 
 

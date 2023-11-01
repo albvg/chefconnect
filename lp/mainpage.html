@@ -27,8 +27,8 @@
         <a id="chefconnect" href="mainpage.html">ChefConnect</a>
     </div>
     <div class="search_container">
-        <form id="search_form" action="mainpage.html">
-            <input type="text" placeholder="Buscar">
+        <form id="search_form" action="filtros/postres.html">
+            <input type="text" placeholder="Buscar receta o cocinero">
             <button type="submit"><i class="fa fa-search"></i></button>
         </form>
     </div>
@@ -49,7 +49,7 @@
               <span class="material-icons-outlined">
                 public
               </span>
-              <a href="">Eventos</a>
+              <a href="../lp/Eventos_ciudad.html">Eventos</a>
             </li>
             <li class="sub-item">
               <span class="material-icons-outlined"> info </span>
@@ -71,34 +71,31 @@
 <div class="fullscreen">
     <div class="container_principal">
         <div class="filtros_container">
-            <button id="filtrar">Filtrar</button>
+            <a class="filtros" href="#popup1" class="button">Filtrar</a>
             <button class="filtros">Sin gluten</button>
             <button class="filtros">Vegano</button>
-            <a class="filtros" href="../lp/filtros/postres.html" class="button">Postres</a>
+            <button class="filtros">Postres</button>
             <button class="filtros">Pescado</button>
             <button class="filtros">Desayuno</button>
             <button class="filtros">Saludable</button>
-
-
         </div>
-        <div class="recipe">
-            <img src="../img/recetas/tarta_manzana.jpg" alt="Tarta de manzana">
+        <div class="recipe1">
+            <h1>Tarta de manzana</h1>
         </div>
-        <div class="recipe">
-            <img src="../img/recetas/paella.jpg" alt="Paella">
+        <div class="recipe2">
+            <h1>Paella</h1>
         </div>
-        <div class="recipe">
-            <img src="../img/recetas/albondigas_salsa.jpg" alt="Albondigas en salsa">
+        <div class="recipe3">
+            <h1>Albóndigas en salsa</h1>
         </div>
-        <div class="recipe">
-            <img src="../img/recetas/tonkatsu.jpeg" alt="Tonkatsu">
+        <div class="recipe4">
+            <h1>Tonkatsu</h1>
         </div>
-        <div class="recipe">
-            <img src="../img/recetas/ramen.webp" alt="Ramen">
+        <div class="recipe5">
+            <h1>Ramen</h1>
         </div>
-        <div class="recipe">
-            <img src="../img/recetas/poke.jpg" alt="Poke">
-        </div>
+        <div class="recipe6">
+            <h1>Poke</h1>
     </div>
 
     <div class="container_banner">
@@ -112,6 +109,80 @@
                 <img src="../img/desafiosbanner.jpg">
             </div>
             <a href="desafios.html">Unirse</a>
+        </div>
+    </div>
+    <div id="popup1" class="overlay">
+        <div class="popup">
+            <form id="popup_form" action="filtros/postres.html">
+                <h2>Filtrar recetas por</h2>
+                    <fieldset>
+                        <input type="radio" id="recommended" name="filtro_general">
+                        <label for="recommended">Recomendadas</label><br>
+                        <input type="radio" id="most_recent" name="filtro_general">
+                        <label for="most_recent">Más recientes</label><br>
+                        <input type="radio" id="best_recipes" name="filtro_general">
+                        <label for="best_recipes">Mejor valoradas</label><br>
+                        <input type="radio" id="az" name="filtro_general">
+                        <label for="az">A-Z</label>
+                    </fieldset>
+                    <fieldset>
+
+                        <legend>Tipo de receta</legend>
+
+                        <input type="radio" id="drink" name="recipe_type">
+                        <label for="drink">Bebida</label><br>
+                        <input type="radio" id="dessert" name="recipe_type">
+                        <label for="dessert">Postre</label><br>
+                        <input type="radio" id="breakfast" name="recipe_type">
+                        <label for="breakfast">Desayuno</label><br>
+                        <input type="radio" id="snack" name="recipe_type">
+                        <label for="snack">Aperitivo</label>
+
+                    </fieldset>
+                    <fieldset class="special">
+
+                        <legend>Características especiales</legend>
+
+                        <input type="checkbox" id="no_gluten" name="filtro_especial">
+                        <label for="no_gluten">Sin gluten</label><br>
+                        <input type="checkbox" id="no_lactose" name="filtro_especial">
+                        <label for="no_lactose">Sin lactosa</label><br>
+                        <input type="checkbox" id="no_sugar" name="filtro_especial">
+                        <label for="no_sugar">Sin azúcar</label><br>
+                        <input type="checkbox" id="no_nuts" name="filtro_especial">
+                        <label for="no_nuts">Sin frutos secos</label><br>
+                        <input type="checkbox" id="low_salt" name="filtro_especial">
+                        <label for="low_salt">Bajo en sal</label><br>
+                        <input type="checkbox" id="low_cal" name="filtro_especial">
+                        <label for="low_cal">Bajo en calorías</label><br>
+                        <input type="checkbox" id="high_protein" name="filtro_especial">
+                        <label for="high_protein">Alto contenido proteico</label><br>
+                        <input type="checkbox" id="vegetarian" name="filtro_especial">
+                        <label for="vegetarian">Vegetariano</label><br>
+                        <input type="checkbox" id="vegan" name="filtro_especial">
+                        <label for="vegan">Vegano</label>
+
+                    </fieldset>
+
+                    <fieldset class="ingredients">
+
+                        <legend>Ingredientes</legend>
+
+                        <input type="checkbox" id="meat" name="ingredients">
+                        <label for="meat">Carne</label><br>
+                        <input type="checkbox" id="fish" name="ingredients">
+                        <label for="fish">Pescado</label><br>
+                        <input type="checkbox" id="fruit" name="ingredients">
+                        <label for="fruit">Fruta</label><br>
+                        <input type="checkbox" id="veggies" name="ingredients">
+                        <label for="veggies">Verduras</label>
+
+                    </fieldset>
+                <a class="close" href="#">&times;</a>
+                <div class="content">
+                <button id="check_button">Filtrar</button>
+            </form>
+            </div>
         </div>
     </div>
 </div>    
